@@ -1,0 +1,60 @@
+
+.gameCard {
+    text-align: center;
+}
+
+
+.gameCard > h3 {
+    height: 60px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.gameCard > button {
+height: 55px;
+width: 190px;
+background-color: #9146ff;
+font-size: 13px;
+font-weight: 500;
+line-height: 20px;
+border-radius: 10px;
+}
+
+.gameCard > button:hover {
+    background-color: #7c43d2;
+    }
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.link > img {
+    margin-left: 5px;
+}
+
+.titleG {
+    text-align: center;
+    margin: 50px;
+    color: #212529;
+}
+
+.container2 {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #00000029;
+    padding: 50px;
+    border-radius: 10px;
+
+}
+
+.gameCard > p {
+    margin-bottom: 10px;
+}
+

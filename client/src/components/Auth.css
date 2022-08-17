@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+body {
+  background-image: url(https://res.cloudinary.com/hatemmas/image/upload/v1659483147/3433814_ox9e5r.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.loginF {
+  width: 420px;
+  text-align: center;
+  margin: auto;
+  margin-top: 10%;
+  padding: 25px 40px;
+  border: 0px solid black;
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.15);
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+
+.loginF > Button {
+  border-radius: 15px;
+  padding-bottom: 5px;
+  margin: 0px 15px;
+}
+
+.loginF > a {
+  margin: 0px 7px;
+  text-decoration: none;
+}
+

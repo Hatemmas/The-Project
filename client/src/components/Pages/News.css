@@ -1,0 +1,60 @@
+
+
+.newsPoster {
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.341);
+    margin-bottom: 40px;
+}
+
+.newsCard {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.newsCard > p {
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+    text-shadow: 1px 1px 20px rgba(80, 80, 80, 0.63);
+    color: white;
+    margin-bottom: 10px;
+    line-height: 1;
+}
+
+.newsCard > h5 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0px;
+    line-height: 1;
+    text-shadow: 1px 1px 20px rgba(80, 80, 80, 0.63);
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+.newsCard > h6 {
+    font-size: 14px;
+    font-weight: 300;
+    text-shadow: 1px 1px 20px rgba(80, 80, 80, 0.63);
+    color: white;
+    text-align: center;
+}
+
+.newsCard > button {
+    font-size: 14px;
+    font-weight: 400;
+    text-shadow: 1px 1px 20px rgba(80, 80, 80, 0.63);
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.container4 {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #00000044;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+  
