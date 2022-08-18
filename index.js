@@ -17,4 +17,6 @@ app.use(express.json())
 //route Middlewares
 app.use('/user', authRoute)
 
-app.listen(5000, () => console.log('Server is Running'))
+const port = process.env.PORT || 5000
+
+app.listen(port, () => console.log('Server is Running'))
